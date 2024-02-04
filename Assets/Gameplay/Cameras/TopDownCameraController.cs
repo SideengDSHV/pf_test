@@ -10,6 +10,10 @@ namespace Cameras
         [SerializeField] private Transform follow;
         [SerializeField] private Transform lookAt;
 
+        [SerializeField] private bool isBoundToGround;
+        [SerializeField] private float samplingWidth;
+        [SerializeField] private float cameraHeight;
+
         [SerializeField] private float orbitSpeed;
         [SerializeField] private float movementSpeed;
         [SerializeField] private float scrollSpeed;
@@ -22,45 +26,68 @@ namespace Cameras
 
         [SerializeField] private AnimationCurve heightProfile;
 
-        private void Update()
+        private void FixedUpdate()
         {
-            bool shift = Input.GetButton("Shift");
-
-            // Orbit
+            bool shift = Input.GetButton("Fire3");
+            bool mouseR = Input.GetButton("Fire2");
             float mouseX = Input.GetAxis("Mouse X");
-            if (mouseX != 0f)
-            {
-                float rotationFactor = mouseX * orbitSpeed;
-
-                lookAt.Rotate(Vector3.up, rotationFactor);
-            }
-
-
-            // Scroll
             float mouseScroll = -Input.GetAxis("Mouse ScrollWheel");
-            if (mouseScroll != 0f)
-            {
-                if (shift) mouseScroll *= 2f;
-                _scrollFactor += mouseScroll * scrollSpeed / maxDistance; // dividing by for consistent steps
-                _scrollFactor = Mathf.Clamp01(_scrollFactor);
-
-                float distance = Mathf.Lerp(MinDistance, maxDistance, _scrollFactor);
-                float height = heightProfile.Evaluate(_scrollFactor) * distance;
-                Vector3 translateFactor = new(0f, height, -distance);
-
-                follow.localPosition = translateFactor;
-            }
-
-            // Moving
             Vector2 inputDirection = new(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-            if (inputDirection != Vector2.zero)
-            {
-                Vector3 translationFactor = new Vector3(inputDirection.x, 0f, inputDirection.y);
-                translationFactor *= movementSpeed;
-                if (shift) translationFactor *= 2;
 
-                lookAt.Translate(translationFactor);
+            if (mouseR) Orbit(mouseX);
+
+            if (mouseScroll != 0f) Zoom(mouseScroll, shift);
+
+            if (inputDirection != Vector2.zero) Translate(inputDirection, shift);
+        }
+
+        private void Orbit(float angle)
+        {
+            float rotationFactor = angle * orbitSpeed;
+
+            lookAt.Rotate(Vector3.up, rotationFactor);
+        }
+
+        private void Zoom(float value, bool shift)
+        {
+            if (shift) value *= 2f;
+            _scrollFactor += value * scrollSpeed / maxDistance; // dividing by for consistent steps
+            _scrollFactor = Mathf.Clamp01(_scrollFactor);
+
+            float distance = Mathf.Lerp(MinDistance, maxDistance, _scrollFactor);
+            float height = heightProfile.Evaluate(_scrollFactor) * distance;
+            Vector3 translateFactor = new(0f, height, -distance);
+
+            follow.localPosition = translateFactor;
+        }
+
+        private void Translate(Vector2 direction, bool shift)
+        {
+            if (shift) direction *= 2;
+
+            Vector3 position = lookAt.position; // Starting from the Look At target
+            position += lookAt.forward * (direction.y * movementSpeed);
+            position += lookAt.right * (direction.x * movementSpeed);
+
+
+            if (!isBoundToGround) // If snapping isn't used set Y to cameraHeight
+            {
+                position.y = cameraHeight;
+                lookAt.position = position;
+                return;
             }
+
+            // Snapping to surface
+            Vector3 origin = position; // Originate rays from target position
+            origin.y += 100f;          // And shoot them from 100 meters above
+            
+            Physics.Raycast(origin, Vector3.down, out RaycastHit sample);
+
+            // Aborting translation if sample went out of bounds
+            if (!sample.collider) return;
+
+            // Setting position to average of three samples
+            lookAt.position = sample.point;
         }
     }
 }
