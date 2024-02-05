@@ -131,6 +131,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.399588
@@ -182,14 +190,6 @@ PrefabInstance:
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -76.247
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -334,6 +334,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.927004
@@ -386,14 +394,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 39.599
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (24)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -412,6 +412,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.7274816
@@ -464,14 +472,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -79.562
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (26)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -490,6 +490,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
+      propertyPath: m_Name
+      value: cliff_stones_big_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3379747209473342478, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2507329
@@ -541,14 +549,6 @@ PrefabInstance:
     - target: {fileID: 3379747209473342478, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 86.675
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
-      propertyPath: m_Name
-      value: cliff_stones_big_01 (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4204720105192244190, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -607,6 +607,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.0397577
@@ -659,14 +667,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 18.233
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (22)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -685,6 +685,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
+      propertyPath: m_Name
+      value: cliff_stones_big_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3379747209473342478, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4419
@@ -737,14 +745,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 4.971
       objectReference: {fileID: 0}
-    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
-      propertyPath: m_Name
-      value: cliff_stones_big_01 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 4204720105192244190, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -767,6 +767,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.3107338
@@ -818,14 +826,6 @@ PrefabInstance:
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 13.194
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -911,6 +911,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.0774229
@@ -963,14 +971,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -3.052
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -989,6 +989,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.0397573
@@ -1041,14 +1049,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 9.166
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (23)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1067,6 +1067,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
+      propertyPath: m_Name
+      value: cliff_stones_big_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3379747209473342478, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4419
@@ -1119,14 +1127,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 131.297
       objectReference: {fileID: 0}
-    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
-      propertyPath: m_Name
-      value: cliff_stones_big_01 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 4204720105192244190, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -1149,6 +1149,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.4228096
@@ -1200,14 +1208,6 @@ PrefabInstance:
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -47.952
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1292,6 +1292,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.836412
@@ -1343,14 +1351,6 @@ PrefabInstance:
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 8.707
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1524,6 +1524,63 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
+--- !u!1001 &946945901
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 57.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 44.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 63.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753198420430165428, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_Name
+      value: Human (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
 --- !u!1001 &976057281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1532,6 +1589,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.23477
@@ -1584,14 +1649,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -22.323
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1610,6 +1667,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.747056
@@ -1662,14 +1727,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1688,6 +1745,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.422809
@@ -1739,14 +1804,6 @@ PrefabInstance:
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -47.479
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1829,6 +1886,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.9270041
@@ -1880,14 +1945,6 @@ PrefabInstance:
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 70.319
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (25)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1967,6 +2024,63 @@ Transform:
   - {fileID: 1936409437}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1203432864
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 79.84648
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 50.521885
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 79.19348
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753198420430165428, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_Name
+      value: Human (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
 --- !u!1001 &1214917915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1975,6 +2089,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.6885767
@@ -2027,14 +2149,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -40.231
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2053,6 +2167,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.6945965
@@ -2105,14 +2227,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -9.485
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2131,6 +2245,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.164586
@@ -2183,14 +2305,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -29.174
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2209,6 +2323,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.4228096
@@ -2261,14 +2383,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -1.433
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2287,6 +2401,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
+      propertyPath: m_Name
+      value: cliff_stones_big_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3379747209473342478, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.567868
@@ -2339,14 +2461,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 4.915
       objectReference: {fileID: 0}
-    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
-      propertyPath: m_Name
-      value: cliff_stones_big_01 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 4204720105192244190, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -2369,6 +2483,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.694596
@@ -2421,14 +2543,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 40.666
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2439,6 +2553,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
   m_PrefabInstance: {fileID: 1465247284}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1475249886
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 49.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 46.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 79.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.22269897
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9748873
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 154.265
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753198420430165428, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
+      propertyPath: m_Name
+      value: Human (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
 --- !u!1001 &1538822561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2447,6 +2618,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.3995876
@@ -2498,14 +2677,6 @@ PrefabInstance:
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -61.697
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2619,6 +2790,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.2153082
@@ -2671,14 +2850,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -11.384
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2697,6 +2868,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5918218452550460297, guid: a6918a23d301b1147a3948ad3b414c6b, type: 3}
+      propertyPath: m_Name
+      value: iz_dungeon_wall_01_01_broken_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918218452550460297, guid: a6918a23d301b1147a3948ad3b414c6b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6443082059612092723, guid: a6918a23d301b1147a3948ad3b414c6b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25.58
@@ -2737,14 +2916,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 17.207
       objectReference: {fileID: 0}
-    - target: {fileID: 5918218452550460297, guid: a6918a23d301b1147a3948ad3b414c6b, type: 3}
-      propertyPath: m_Name
-      value: iz_dungeon_wall_01_01_broken_06
-      objectReference: {fileID: 0}
-    - target: {fileID: 5918218452550460297, guid: a6918a23d301b1147a3948ad3b414c6b, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2763,6 +2934,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.7214694
@@ -2815,14 +2994,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.797
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2841,6 +3012,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 6.1884594
@@ -2893,14 +3072,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.245
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2919,6 +3090,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.310733
@@ -2970,14 +3149,6 @@ PrefabInstance:
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.692
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3062,6 +3233,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.7274816
@@ -3114,14 +3293,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -59.912994
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (27)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3140,6 +3311,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 508088245006146036, guid: f247d21042b146644a218cd772ea11af, type: 3}
+      propertyPath: m_Name
+      value: demon_mines_bridge_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 508088245006146036, guid: f247d21042b146644a218cd772ea11af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 884613443856155470, guid: f247d21042b146644a218cd772ea11af, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -3192,14 +3371,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 508088245006146036, guid: f247d21042b146644a218cd772ea11af, type: 3}
-      propertyPath: m_Name
-      value: demon_mines_bridge_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 508088245006146036, guid: f247d21042b146644a218cd772ea11af, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3218,6 +3389,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
+      propertyPath: m_Name
+      value: cliff_stones_big_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3379747209473342478, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.249753
@@ -3270,14 +3449,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90.743
       objectReference: {fileID: 0}
-    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
-      propertyPath: m_Name
-      value: cliff_stones_big_01 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 4204720105192244190, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -3300,6 +3471,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.6278749
@@ -3352,14 +3531,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -38.573
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3378,6 +3549,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.2347698
@@ -3430,14 +3609,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -3.017
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3456,6 +3627,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4860997
@@ -3508,14 +3687,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -6.991
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3526,63 +3697,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
   m_PrefabInstance: {fileID: 1936409436}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1947990745
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 80.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 50.551
-      objectReference: {fileID: 0}
-    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 80.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.3826832
-      objectReference: {fileID: 0}
-    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.9238797
-      objectReference: {fileID: 0}
-    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 225
-      objectReference: {fileID: 0}
-    - target: {fileID: 4944011036406861582, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5753198420430165428, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
-      propertyPath: m_Name
-      value: Human
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9eb01993e8e30304a95378f422ab393e, type: 3}
 --- !u!1001 &2096548563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3591,6 +3705,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_Name
+      value: desert_big_stone_05 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6533391130372252060, guid: e90711d842c5a66458568010ad68112a, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.164586
@@ -3643,14 +3765,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -35.225
       objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_Name
-      value: desert_big_stone_05 (19)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5899878457448790822, guid: e90711d842c5a66458568010ad68112a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3669,6 +3783,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1176300526}
     m_Modifications:
+    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
+      propertyPath: m_Name
+      value: cliff_stones_big_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3379747209473342478, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.45
@@ -3708,14 +3830,6 @@ PrefabInstance:
     - target: {fileID: 3379747209473342478, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
-      propertyPath: m_Name
-      value: cliff_stones_big_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 2714710163473229492, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4204720105192244190, guid: 92b7364cdef1e6047a1fcdc12bf2ef5a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3815,6 +3929,26 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 8492774864434993175, guid: c972806f64505ce45987d0c3eda184c5, type: 3}
+      propertyPath: orbitSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492774864434993175, guid: c972806f64505ce45987d0c3eda184c5, type: 3}
+      propertyPath: scrollSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492774864434993175, guid: c972806f64505ce45987d0c3eda184c5, type: 3}
+      propertyPath: movementSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492774864434993175, guid: c972806f64505ce45987d0c3eda184c5, type: 3}
+      propertyPath: maxScrollDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492774864434993175, guid: c972806f64505ce45987d0c3eda184c5, type: 3}
+      propertyPath: maxDistanceFromTarget
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3827,6 +3961,8 @@ SceneRoots:
   - {fileID: 1176300526}
   - {fileID: 7021206}
   - {fileID: 74790607}
-  - {fileID: 1947990745}
+  - {fileID: 1203432864}
+  - {fileID: 946945901}
+  - {fileID: 1475249886}
   - {fileID: 7321861679993647660}
   - {fileID: 824532350}

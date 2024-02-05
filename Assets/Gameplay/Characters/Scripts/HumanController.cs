@@ -1,6 +1,6 @@
-using System;
 using UnityEngine;
 using UnityEngine.AI;
+using Random = UnityEngine.Random;
 
 namespace Gameplay.Characters
 {
@@ -10,7 +10,9 @@ namespace Gameplay.Characters
     internal class HumanController
     {
         private const float MinTravelDistance = 2f;
+
         private static readonly int Velocity = Animator.StringToHash("velocity");
+        private static readonly int CycleOffset = Animator.StringToHash("cycleOffset");
 
         private readonly NavMeshAgent _agent;
         private readonly Animator _animator;
@@ -19,6 +21,7 @@ namespace Gameplay.Characters
         {
             _agent = agent;
             _animator = animator;
+            _animator.SetFloat(CycleOffset, Random.Range(0f, 1f));
         }
 
         internal void SetTargetPosition(Vector3 startPosition, Vector3 targetPosition)
