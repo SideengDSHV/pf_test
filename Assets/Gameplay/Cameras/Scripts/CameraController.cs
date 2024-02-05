@@ -30,7 +30,7 @@ namespace Gameplay.Cameras
             Translate(Vector2.zero);
         }
 
-        private void FixedUpdate()
+        private void Update()
         {
             bool shift = Input.GetButton("Fire3");
             bool mouseR = Input.GetButton("Fire2");
@@ -45,7 +45,7 @@ namespace Gameplay.Cameras
             if (inputDirection != Vector2.zero) Translate(inputDirection, shift);
         }
 
-        
+
         private void Orbit(float angle)
         {
             float rotationFactor = angle * orbitSpeed;
@@ -54,7 +54,7 @@ namespace Gameplay.Cameras
             lookAt.Rotate(Vector3.up, rotationFactor);
         }
 
-        
+
         private void Zoom(float value, bool shift = false)
         {
             if (shift) value *= 2f;
@@ -68,24 +68,31 @@ namespace Gameplay.Cameras
 
             follow.localPosition = translateFactor;
         }
-        
+
 
         private void Translate(Vector2 direction, bool shift = false)
         {
             if (shift) direction *= 2;
 
-            Vector3 position = lookAt.position; // Starting from the Look At target
-            position += lookAt.forward * (direction.y * movementSpeed);
-            position += lookAt.right * (direction.x * movementSpeed);
+            Vector3 targetPosition = lookAt.position; // Starting from the Look At target
+            targetPosition += lookAt.forward * (direction.y * movementSpeed);
+            targetPosition += lookAt.right * (direction.x * movementSpeed);
 
-
-            if (!isBoundToGround) // If snapping isn't used set Y to minCameraHeight and finish translation
+            switch (isBoundToGround)
             {
-                position.y = minCameraHeight;
-                lookAt.position = position;
-                return;
-            }
+                case true:
+                    lookAt.position = SnapToSurface(targetPosition);
+                    return;
 
+                case false:
+                    targetPosition.y = minCameraHeight;
+                    lookAt.position = targetPosition;
+                    return;
+            }
+        }
+
+        Vector3 SnapToSurface(Vector3 position)
+        {
             // Originate rays from 100m above the target position
             Vector3 origin = position;
             origin.y += 100f;
@@ -108,7 +115,7 @@ namespace Gameplay.Cameras
             Physics.Raycast(origin + triangleVertex2, Vector3.down, out RaycastHit sample2);
             Physics.Raycast(origin + triangleVertex3, Vector3.down, out RaycastHit sample3);
 
-            // Setting position hight to the highest of four samples
+            // Setting position height to the highest of four samples
             float highestY = Mathf.Max(
                 sample0.point.y,
                 sample1.point.y,
@@ -117,19 +124,7 @@ namespace Gameplay.Cameras
                 minCameraHeight // Or leaving it at minCameraHeight if samples failed
             );
             position.y = highestY;
-            lookAt.position = position;
-
-            // Drawing sampling triangle
-            
-            Debug.DrawLine(sample1.point, sample2.point);
-            Debug.DrawLine(sample2.point, sample3.point);
-            Debug.DrawLine(sample3.point, sample1.point);
-            
-            Debug.DrawLine(sample1.point, sample0.point);
-            Debug.DrawLine(sample2.point, sample0.point);
-            Debug.DrawLine(sample3.point, sample0.point);
-            
-            Debug.DrawLine(sample0.point, position, Color.green);
+            return position;
         }
     }
 }
