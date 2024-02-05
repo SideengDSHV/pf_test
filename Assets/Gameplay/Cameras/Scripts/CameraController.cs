@@ -2,10 +2,13 @@ using UnityEngine;
 
 namespace Gameplay.Cameras
 {
-    public class TopDownCameraController : MonoBehaviour
+    public class CameraController : MonoBehaviour
     {
         [SerializeField] private Transform follow;
         [SerializeField] private Transform lookAt;
+
+        [SerializeField] private bool isBoundToTargets;
+        [SerializeField] private float maxDistanceFromTarget;
 
         [SerializeField] private bool isBoundToGround;
         [SerializeField] private float minCameraHeight;
@@ -14,11 +17,12 @@ namespace Gameplay.Cameras
         [SerializeField] private float movementSpeed;
         [SerializeField] private float scrollSpeed;
 
-        private float _scrollFactor; // 0-1 percentage
-        private const float MinDistanceToTarget = 5f;
 
-        [SerializeField] [Min(MinDistanceToTarget + 1)]
-        private float maxDistanceFromTarget;
+        private float _scrollFactor; // 0-1 percentage
+        private const float MinScrollDistance = 5f;
+
+        [SerializeField] [Min(MinScrollDistance + 1)]
+        private float maxScrollDistance;
 
         [SerializeField] private AnimationCurve heightProfile;
 
@@ -42,7 +46,8 @@ namespace Gameplay.Cameras
 
             if (mouseScroll != 0f) Zoom(mouseScroll, shift);
 
-            if (inputDirection != Vector2.zero) Translate(inputDirection, shift);
+            // Always updating if bound to targets, to get pulled towards them when they move away
+            if (isBoundToTargets || inputDirection != Vector2.zero) Translate(inputDirection, shift);
         }
 
 
@@ -58,11 +63,11 @@ namespace Gameplay.Cameras
         private void Zoom(float value, bool shift = false)
         {
             if (shift) value *= 2f;
-            _scrollFactor += value * scrollSpeed / maxDistanceFromTarget; // dividing for consistent step distance
+            _scrollFactor += value * scrollSpeed / maxScrollDistance; // dividing for consistent step distance
             _scrollFactor = Mathf.Clamp01(_scrollFactor);
 
             // Converting 0-1 Scroll Factor to an actual distance from target
-            float distance = Mathf.Lerp(MinDistanceToTarget, maxDistanceFromTarget, _scrollFactor);
+            float distance = Mathf.Lerp(MinScrollDistance, maxScrollDistance, _scrollFactor);
             float height = heightProfile.Evaluate(_scrollFactor) * distance;
             Vector3 translateFactor = new(0f, height, -distance);
 
@@ -78,6 +83,8 @@ namespace Gameplay.Cameras
             targetPosition += lookAt.forward * (direction.y * movementSpeed);
             targetPosition += lookAt.right * (direction.x * movementSpeed);
 
+            if (isBoundToTargets) targetPosition = SnapToCameraTargets(targetPosition);
+
             switch (isBoundToGround)
             {
                 case true:
@@ -91,7 +98,27 @@ namespace Gameplay.Cameras
             }
         }
 
-        Vector3 SnapToSurface(Vector3 position)
+        private Vector3 SnapToCameraTargets(Vector3 target)
+        {
+            // Find closest target
+            float closestDistance = float.MaxValue;
+            Vector3 closestTarget = target;
+            foreach (ICameraTarget cameraTarget in ICameraTarget.targets)
+            {
+                float currentDistance = Vector3.Distance(lookAt.position, cameraTarget.position);
+                if (currentDistance > closestDistance) continue;
+                closestDistance = currentDistance;
+                closestTarget = cameraTarget.position;
+            }
+            
+            // If closest target is in the range, or doesn't exist
+            if (closestDistance < maxDistanceFromTarget) return target;
+
+            Vector3 toTarget = (target - closestTarget).normalized;
+            return closestTarget + toTarget * maxDistanceFromTarget;
+        }
+
+        private Vector3 SnapToSurface(Vector3 position)
         {
             // Originate rays from 100m above the target position
             Vector3 origin = position;
@@ -105,10 +132,10 @@ namespace Gameplay.Cameras
             Vector3 triangleVertex2 = new(Mathf.Sin(tauOver3 * 2), 0, Mathf.Cos(tauOver3 * 2));
             Vector3 triangleVertex3 = new(Mathf.Sin(tauOver3 * 3), 0, Mathf.Cos(tauOver3 * 3));
 
-            // Scaling it by MinDistanceToTarget to avoid terrain clipping
-            triangleVertex1 *= MinDistanceToTarget;
-            triangleVertex2 *= MinDistanceToTarget;
-            triangleVertex3 *= MinDistanceToTarget;
+            // Scaling it by MinScrollDistance to avoid terrain clipping
+            triangleVertex1 *= MinScrollDistance;
+            triangleVertex2 *= MinScrollDistance;
+            triangleVertex3 *= MinScrollDistance;
 
             Physics.Raycast(origin, Vector3.down, out RaycastHit sample0); // Sample straight down as well
             Physics.Raycast(origin + triangleVertex1, Vector3.down, out RaycastHit sample1);
