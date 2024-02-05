@@ -33,7 +33,7 @@ namespace Gameplay.Characters
             _agent.CalculatePath(targetPosition, potentialPath);
 
             // Check if path is reachable
-            if (_agent.pathStatus != NavMeshPathStatus.PathComplete) return;
+            if (potentialPath.status != NavMeshPathStatus.PathComplete) return;
 
             _agent.SetPath(potentialPath);
         }
